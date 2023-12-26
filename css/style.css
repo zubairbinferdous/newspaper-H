@@ -427,7 +427,6 @@ menu {
 }
 .tips-data-two {
   padding: 5px 0px;
-  margin-bottom: 5px;
   border-bottom: 1px solid rgba(183, 178, 178, 0.57);
 }
 .tips-data-two h6 {
@@ -527,4 +526,15 @@ menu {
 }
 .software-data-two img {
   padding-top: 10px;
+}
+
+/*  software-area two */
+
+.software-area-two p {
+  padding: 10px 5px;
+  margin: 20px 0px;
+}
+
+.software-area-three p {
+  padding: 0px 10px;
 }
