@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 0px;
+}
+
+.p0 {
+  padding: 0px;
+}
+.mt_5 {
+  margin: 5px 0px;
+}
+.mb05 {
+  margin-bottom: 3px;
+}
+
+.mt_10 {
+  margin-top: 3px;
+}
+
+.mr_10 {
+  margin-right: 3px;
+  margin-left: 3px;
+}
+.border_bottom {
+  border-bottom: 3px solid black;
+}
+.border_bottom2 {
+  border-bottom: 1px solid rgb(241, 238, 238);
+}
+.data-area-one {
+  padding: 10px 0px;
+}
+.data-area-one h1 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.data-area-one a {
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: bold;
+  color: aliceblue;
+}
+.btn1 {
+  padding: 7px 34px;
+  background-color: rgb(60, 114, 96);
+  text-transform: uppercase;
+}
+.img_size1 {
+  width: 100%;
+  height: 250px;
+}
+
+/* header -area  */
+header {
+  padding: 8px 0px;
+}
+.side-area-data p {
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.date_area p {
+  font-size: 13px;
+  padding-top: 10px;
+}
+
+/* menu-area  */
+menu {
+  padding: 8px 0px;
+}
+.category {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(203, 36, 11);
+  border-right: 2px solid black;
+  text-align: center;
+}
+.category2 {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(63, 62, 61);
+  border-right: 2px solid black;
+}
+.category a {
+  text-transform: uppercase;
+  color: aliceblue;
+  text-align: center;
+  text-decoration: none;
+}
+.category2 a {
+  text-transform: uppercase;
+  color: aliceblue;
+  text-align: center;
+  text-decoration: none;
+}
+
+.new-data-one {
+  position: relative;
+}
+.new-data-two {
+  position: relative;
+}
+.new-data-one img {
+  width: 100%;
+  height: 100%;
+}
+
+.new-data-area {
+  position: absolute;
+  bottom: 0px;
+  padding: 10px 8px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.378);
+}
+
+.new-data-area p {
+  position: absolute;
+  bottom: 10px;
+  padding: 10px;
+  font-size: 30px;
+  color: aliceblue;
+  text-align: start;
+}
+
+.new-data-area2 {
+  position: absolute;
+  bottom: 0px;
+  padding: 10px 8px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.378);
+}
+
+.new-data-area2 p {
+  position: absolute;
+  bottom: 10px;
+  padding: 10px;
+  font-size: 15px;
+  color: aliceblue;
+  text-align: start;
+}
+
+/* add-area  */
+
+.add-area {
+  margin-top: 15px;
+}
+.add_area_img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* news-area 2  */
+.new-area-two-left-side img {
+  width: 100%;
+}
+.new-area-two-left-side a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+  padding-top: 10px;
+  display: inline-block;
+}
+.new-area-two-left-side p {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.new-area-two-center-side img {
+  width: 100%;
+  height: 100%;
+}
+
+.new-area-two-center-side p {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.new-area-two-center-side a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+  padding-top: 10px;
+  display: inline-block;
+}
+
+.new-area-two-center-side span {
+  margin-top: 25px;
+  display: block;
+  font-size: 14px;
+}
+
+.m-20 {
+  margin-top: 50px;
+}
+
+.border-top {
+  margin-top: 30px;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(16, 15, 15);
+}
+.today-news {
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+
+.today-news p {
+  padding: 5px 15px;
+  background-color: rgb(117, 3, 3);
+  color: aliceblue;
+}
+
+.right-side-news p {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* tech-talk  */
+
+.tech-talk {
+  background-color: black;
+  padding: 60px 0px;
+}
+
+.title-data h6 {
+  font-size: 30px;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+
+.tech-data-area .category-area a {
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px 0px;
+  display: inline-block;
+  color: aliceblue;
+}
+
+.tech-data-area a {
+  font-size: 16px;
+  color: aliceblue;
+  text-transform: uppercase;
+  padding: 5px 0px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* software-data  */
+
+.software-left-area a {
+  font-size: 13px;
+  padding: 10px;
+  text-decoration: none;
+  text-align: justify;
+  display: block;
+  color: black;
+}
+
+.mb-20 {
+  margin-bottom: 7px;
+}
+.software_left img {
+  border-radius: 10px;
+}
+.software_data_left_side {
+  width: 100%;
+  padding: 8px 8px;
+  background-color: rgba(163, 166, 169, 0.231);
+  border-left: 3px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+}
+.software_data_left_side a {
+  font-size: 13px;
+  color: black;
+  text-decoration: none;
+}
+
+.software_left img {
+  width: 100%;
+  height: 80px;
+}
+
+/* software-area  */
+.title-area {
+  padding: 30px 0px 0px 0px;
+}
+.title-area HR {
+  color: rgb(61, 62, 62);
+}
+.title-data-area {
+  text-align: center;
+}
+.title-data-area h4 {
+  font-size: 60px;
+  text-transform: uppercase;
+  position: relative;
+  top: -65px;
+  left: 699px;
+  text-align: center;
+}
+
+.bg-text {
+  background-color: #ffffff;
+  width: 30%;
+}
+
+/* trend-news  */
+.trend-menu {
+  text-align: center;
+  margin-top: 30px;
+}
+.trend-menu ul {
+  display: block;
+}
+.trend-menu ul li {
+  display: inline-block;
+  text-transform: uppercase;
+}
+.trend-menu ul li a {
+  padding: 4px 9px;
+  background-color: rgba(123, 124, 125, 0.568);
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.add5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-area-5 {
+  width: 75%;
+  height: 100px;
+  background-color: black;
+}
+
+/* tech-talk-area  area-two  */
+
+.linl-mt {
+  margin-top: 20px;
+}
+
+.title-data h6 {
+  font-size: 30px;
+  color: black;
+  margin-top: 40px;
+}
+
+/* like-brand-area */
+
+.logo {
+  border-style: dashed;
+  border: 1px solid rgba(219, 215, 215, 0.508);
+}
+.logo img {
+  width: 90%;
+  height: 70%;
+  text-align: center;
+}
+
+.logo-area-data h4 {
+  font-size: 14px;
+  margin-top: 10px;
+}
