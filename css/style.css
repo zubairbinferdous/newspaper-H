@@ -381,3 +381,59 @@ menu {
   font-size: 14px;
   margin-top: 10px;
 }
+
+.like-brand {
+  padding: 30px 0px;
+  background-color: rgb(30, 29, 29);
+}
+.like-brad-data {
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  width: 100%;
+  height: 300px;
+}
+.brad_data_img_area img {
+  margin-top: 20px;
+}
+.brad_data {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.brad_data a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.border_top {
+  margin-top: 40px;
+  border-top: 2px solid black;
+}
+
+/* tips-area  */
+
+.tips-data-area {
+  padding: 20px 3px;
+  border-bottom: 1px solid rgba(183, 178, 178, 0.57);
+}
+
+.tips-data h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.tips-data p {
+  font-size: 14px;
+}
+.tips-data-two {
+  padding: 5px 0px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid rgba(183, 178, 178, 0.57);
+}
+.tips-data-two h6 {
+  font-weight: bold;
+  font-size: 13px;
+}
+.tips-data-two p {
+  font-size: 12px;
+}
