@@ -58,6 +58,16 @@ p {
 }
 
 /* header -area  */
+
+.logo_broder {
+  border-right: 2px solid rgb(26, 25, 25);
+  border-left: 2px solid rgb(23, 23, 23);
+}
+table,
+th,
+td {
+  border: 1px solid;
+}
 header {
   padding: 8px 0px;
 }
@@ -67,13 +77,28 @@ header {
   padding-top: 10px;
 }
 .date_area p {
+  margin-top: 40px;
   font-size: 13px;
+  font-weight: bold;
   padding-top: 10px;
+}
+.header-link {
+  margin-top: 30px;
+}
+.header-link li {
+  display: inline-block;
+}
+.header-link li a {
+  font-size: 20px;
+  padding-left: 10px;
+  color: black;
+  font-size: 25px;
 }
 
 /* menu-area  */
 menu {
   padding: 8px 0px;
+  margin: 10px 0px;
 }
 .category {
   width: 100%;
@@ -81,6 +106,12 @@ menu {
   background-color: rgb(203, 36, 11);
   border-right: 2px solid black;
   text-align: center;
+  padding: 5px 15px;
+  transition: 0.5s;
+}
+
+.category:hover {
+  background-color: rgba(203, 37, 11, 0.739);
 }
 .category2 {
   text-align: center;
@@ -94,6 +125,7 @@ menu {
   color: aliceblue;
   text-align: center;
   text-decoration: none;
+  font-size: 14px;
 }
 .category2 a {
   text-transform: uppercase;
@@ -238,7 +270,7 @@ menu {
   padding: 60px 0px;
 }
 
-.title-data h6 {
+.title-data2 h6 {
   font-size: 30px;
   color: aliceblue;
   text-transform: uppercase;
@@ -552,6 +584,7 @@ footer {
   background-color: antiquewhite;
   padding: 40px 10px;
   text-align: center;
+  border-radius: 15px;
 }
 
 .footer-email h1 {
@@ -574,7 +607,7 @@ footer {
 }
 
 .email-btn {
-  padding: 3px 26px;
+  padding: 7px 77px;
   color: black;
   margin-top: 10px;
   text-transform: uppercase;
@@ -587,10 +620,13 @@ footer {
 }
 .footer-menu-area ul li a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 14px;
   color: #ffffff;
+  transition: 0.5s;
 }
-
+.footer-menu-area ul li a:hover {
+  color: #cf1717;
+}
 .footer-logo-area ul li {
   display: inline-block;
   color: #ffffff;
@@ -601,6 +637,30 @@ footer {
 .footer-logo-area ul li a {
   color: #ffffff;
   text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-logo-area ul li a:hover {
+  color: #d00000c4;
+}
+.footer-logo-area2 ul li {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 20px;
+  padding-right: 10px;
+  padding-bottom: 63px;
+}
+.footer-logo-area2 ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 14px;
+  display: block;
+  padding-top: 80px;
+}
+
+.footer-logo-area2 ul li a:hover {
+  color: #d00000c4;
 }
 
 .footer-logo-area {
