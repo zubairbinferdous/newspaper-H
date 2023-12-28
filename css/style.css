@@ -6,7 +6,15 @@
 p {
   margin-bottom: 0px;
 }
-
+h5 {
+  margin: 0px;
+}
+h4 {
+  margin: 0px;
+}
+.pr-0 {
+  padding-right: 0px;
+}
 .p0 {
   padding: 0px;
 }
@@ -59,6 +67,42 @@ p {
 
 /* header -area  */
 
+.namazr-time {
+  color: #ffffff;
+  background-color: rgb(10, 238, 162);
+}
+
+.namazr-area h5 {
+  font-size: 13px;
+  padding: 5px 10px;
+  text-align: center;
+  margin-bottom: 3px;
+}
+.namazr-time h5 {
+  font-size: 13px;
+  padding: 5px 10px;
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.sunrise h4 {
+  font-size: 13px;
+  color: #ffffff;
+  padding: 5px 0px;
+}
+.sunset h4 {
+  font-size: 13px;
+  color: #ffffff;
+  padding: 5px 0px;
+}
+
+.namazr-area {
+  color: #ffffff;
+  background-color: rgb(25, 174, 14);
+}
+.bg-namaz {
+  background-color: rgb(26, 26, 66);
+}
 .logo_broder {
   border-right: 2px solid rgb(26, 25, 25);
   border-left: 2px solid rgb(23, 23, 23);
