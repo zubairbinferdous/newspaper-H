@@ -1,6 +1,15 @@
+@font-face {
+  font-family: myFont;
+  src: url("../font/solaimanlipi.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: myFont;
 }
 
 p {
@@ -9,6 +18,16 @@ p {
 h5 {
   margin: 0px;
 }
+
+.text h1 {
+  font-size: 15rem;
+  text-align: center;
+  color: #e5fcf5;
+  font-family: "Yellowtail", cursive;
+  font-weight: 700;
+  text-shadow: 23px 25px 5px #c78283;
+}
+
 h4 {
   margin: 0px;
 }
@@ -225,6 +244,71 @@ menu {
   text-align: start;
 }
 
+/* running-news  */
+
+.running-news-title h6 {
+  font-size: 15px;
+  background-color: #cf1717;
+  color: #fff;
+  width: 100%;
+  padding: 12px 0px;
+  text-align: center;
+}
+.news-ticker-container {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.news-ticker {
+  overflow: hidden;
+}
+
+.news-ticker ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  white-space: nowrap;
+  animation: ticker 15s linear infinite; /* Adjust the duration as needed */
+}
+.news-ticker li {
+  flex: 0 0 auto;
+  margin-right: 20px; /* Adjust the spacing between news items */
+  opacity: 0;
+  transform: translateX(100%);
+  animation: slideIn 1s ease-out forwards;
+}
+
+.news-ticker li {
+  display: inline-block;
+  margin-right: 20px; /* Adjust the spacing between news items */
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.running-news-data {
+  margin-bottom: 10px;
+}
+
 /* add-area  */
 
 .add-area {
@@ -390,6 +474,17 @@ menu {
   top: -65px;
   left: 699px;
   text-align: center;
+  text-shadow: 3px 17px 5px #c78283;
+}
+
+.title-data-area h5 {
+  font-size: 90px;
+  text-transform: uppercase;
+  position: relative;
+  top: -65px;
+  left: 699px;
+  text-align: center;
+  text-shadow: 23px 25px 5px #c78283;
 }
 
 .bg-text {
@@ -473,12 +568,12 @@ menu {
 }
 .brad_data {
   padding: 10px;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .brad_data a {
   color: black;
-  font-size: 16px;
+  font-size: 12px;
   text-decoration: none;
 }
 
